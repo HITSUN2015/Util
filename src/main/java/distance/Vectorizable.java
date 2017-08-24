@@ -1,5 +1,7 @@
 package distance;
 
+import exception.DistanceException;
+
 /**
  * Created by Sunny on 17/8/24.
  *
@@ -8,5 +10,7 @@ package distance;
  * 一般化:      矢量距离
  */
 public interface Vectorizable {
-    long distanceBetween(Vectorizable vectorizable);
+    Object distance(Vectorizable vectorizable) throws DistanceException;
+
+    Object getValue();
 }
