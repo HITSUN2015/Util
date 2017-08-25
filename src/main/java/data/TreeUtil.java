@@ -8,10 +8,10 @@ import javax.swing.tree.TreeNode;
  * Created by Sunny on 17/8/25.
  */
 public class TreeUtil {
-    public BinaryTreeNode mergeTrees(BinaryTreeNode t1, BinaryTreeNode t2) {
+    public BinaryTreeNode mergeTrees(BinaryTreeNode t1, BinaryTreeNode t2,boolean isOrg) {
         //先拿递归做了
         //TODO
-        TreeNode result = null;
+        BinaryTreeNode result = null;
         if(null == t1 && null == t2){
 
         } else {
