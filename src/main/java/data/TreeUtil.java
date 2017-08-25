@@ -2,8 +2,6 @@ package data;
 
 import data.modal.BinaryTreeNode;
 
-import javax.swing.tree.TreeNode;
-
 /**
  * Created by Sunny on 17/8/25.
  */
