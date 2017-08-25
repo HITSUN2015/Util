@@ -1,6 +1,6 @@
 package distance;
 
-import data.Binary;
+import data.BinaryUtil;
 import exception.DistanceException;
 
 /**
@@ -35,7 +35,7 @@ public class BinarySingleVector extends AbstractSingleVector<Integer> {
                 Integer compareValue = ((BinarySingleVector) vectorizable).getValue();
                 int temp = valueHolder ^ compareValue;
                 //than the aim si to how many 1 in temp's binary code
-                result = Binary.count1(temp);
+                result = BinaryUtil.count1(temp);
             }
         } else {
             throw new DistanceException(String.format("can not compute BinarySingleVector and s% type's distance", vectorizable.getClass().getTypeName()));

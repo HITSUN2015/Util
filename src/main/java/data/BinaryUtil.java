@@ -3,7 +3,7 @@ package data;
 /**
  * Created by Sunny on 17/8/24.
  */
-public class Binary {
+public class BinaryUtil {
 
 
     /**
