@@ -14,6 +14,13 @@ public class BinarySingleVector extends AbstractSingleVector<Integer> {
         this.valueHolder = value;
     }
 
+
+    /**
+     //TODO 这个方法 还需要输入 编码类型 补码,是否有符号位等
+     * @param vectorizable
+     * @return
+     * @throws DistanceException
+     */
     @Override
     public Integer distance(Vectorizable vectorizable) throws DistanceException {
         Integer result = null;
